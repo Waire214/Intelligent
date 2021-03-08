@@ -11,9 +11,9 @@ body{
     overflow-x: hidden;
 }
 @media only screen and (max-width:600px){
-    .overall-container{
-        /*height: 100vh;*/
-    }
+    /*.overall-container{
+        height: 100vh;
+    }*/
     .main-container{
         /*height: 600vh;*/
         display: flex;
@@ -251,8 +251,6 @@ body{
     }
     #first-form{
         width: calc(100vw - 60px);
-    }
-    ol{
     }
     li{
         margin-left: 20px;
