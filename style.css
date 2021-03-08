@@ -655,6 +655,16 @@ body{
           "box-container box-container"
           "next next";
       }
+      h1{
+        justify-self: start;
+        font-size: 50px;
+        font-family: 'Kanit', sans-serif;    
+        line-height: 80px;
+        letter-spacing: 1px;
+        padding: 10px;
+
+    }
+
       
       .top-division {
         height: 100px;
@@ -675,19 +685,19 @@ body{
             "firstbox thirdbox"
             "secondbox fourthbox";
             text-align: left;
-  
+            height: 520px;
         }
         .sectionbox{
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            height: 250px;
+            height: 210px;
             margin-bottom: 10px;
         }
     
         .sectionboxlast{
-            height: 370px;
+            height: 300px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -724,8 +734,8 @@ body{
         }
         p{
             font-weight: 400;
-            font-size: 15px;
-            line-height: 23px;
+            font-size: 12px;
+            line-height: 20px;
             font-family: 'Work Sans', sans-serif;
         }
     
