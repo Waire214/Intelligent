@@ -685,7 +685,7 @@ body{
             "firstbox thirdbox"
             "secondbox fourthbox";
             text-align: left;
-            height: 520px;
+            height: 530px;
         }
         .sectionbox{
             display: flex;
@@ -703,7 +703,7 @@ body{
             justify-content: flex-start;
             align-items: flex-start;
             margin-bottom: 0px;
-            margin-top: 0px;
+            margin-top: 25px;
         }
         h2{
             background-color: rgb(241, 174, 48);
