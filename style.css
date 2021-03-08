@@ -747,12 +747,11 @@ body{
         padding-right: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 15px 15px;
         grid-template-areas:
-          "firstbox fourthbox"
-          "secondbox fourthbox"
-          "thirdbox fourthbox";
+          "firstbox thirdbox"
+          "secondbox fourthbox";
           text-align: left;
       }
     .firstbox { grid-area: firstbox; }
@@ -777,11 +776,11 @@ body{
     .sectionboxlast{
         justify-content: flex-start;
         align-items: flex-start;
-        height: 500px;
+        height: 300px;
         margin-bottom: 0px;
     }
     .sectionlist{
-        height: 200px;
+        height: 110px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
