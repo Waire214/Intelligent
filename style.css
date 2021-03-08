@@ -741,7 +741,7 @@ body{
     
       
 }
-@media only screen and (min-width:992px) and(min-height:800px){
+@media only screen and (min-width:992px) and (min-height:800px){
     .second-container{
         height: 1080px;
         width: 100vw;
